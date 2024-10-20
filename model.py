@@ -42,7 +42,7 @@ def main():
     # Read the CSV file
     total_entries = 100
     chunk_size = 20  # Process in smaller chunks
-    output_file = "train_with_extracted_text_100.csv"
+    output_file = "input data.csv"
     
     # Write the header to the output file
     pd.DataFrame(columns=['image_link', 'extracted_text']).to_csv(output_file, index=False)
